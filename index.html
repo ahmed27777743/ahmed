@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منصة التعليم</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 40px;
+            direction: rtl;
+        }
+        .course {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        .locked {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        iframe, embed {
+            width: 90%;
+            height: 400px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>مرحبًا بك في منصتنا التعليمية</h1>
+
+    <div class="course locked" id="section1">
+        <h2>قسم الفيزياء</h2>
+        <p>يرجى تفعيل الاشتراك لفتح هذا القسم.</p>
+        <a class="btn" href="https://wa.me/201008404327" target="_blank">تفعيل الاشتراك عبر واتساب</a>
+    </div>
+
+    <div class="course locked" id="section2">
+        <h2>قسم الكيمياء</h2>
+        <p>يرجى تفعيل الاشتراك لفتح هذا القسم.</p>
+        <a class="btn" href="https://wa.me/201008404327" target="_blank">تفعيل الاشتراك عبر واتساب</a>
+    </div>
+</body>
+</html>
